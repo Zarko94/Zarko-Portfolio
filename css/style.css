@@ -37,3 +37,18 @@
 .karsoel-item a {
   color: #fff;
 }
+@media (max-width: 768px) {
+  .karosel img {
+    height: 330px;
+  }
+  .karosel {
+    height: 330px;
+  }
+  .karosel p {
+    font-size: 18px;
+  }
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
